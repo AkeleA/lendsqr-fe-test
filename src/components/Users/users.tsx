@@ -51,7 +51,7 @@ const UserTop = (props: Props) => {
           </div>
         </div>
         <h2 className="firsth">USERS</h2>
-        <p>{userCount}</p>
+        <p className="userNo">{userCount}</p>
       </div>
     </div>
   );

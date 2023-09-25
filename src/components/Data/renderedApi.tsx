@@ -222,6 +222,4 @@ const UsersTable: React.FC = () => {
   );
 };
 
-export { db };
-
 export default UsersTable;
