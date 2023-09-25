@@ -254,7 +254,7 @@ const UsersTable: React.FC = () => {
             disabled={currentPage >= totalPages}
             className="out2"
           >
-            {">"}
+            <span>{">"}</span>
           </button>
         </div>
       </div>
