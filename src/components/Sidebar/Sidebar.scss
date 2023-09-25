@@ -1,0 +1,321 @@
+div.Sidebar {
+  position: absolute;
+  width: 283px;
+  height: 1900px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  bottom: -100%;
+  background: #ffffff;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+}
+.suitcase {
+  position: absolute;
+  left: 30px;
+  top: 135px;
+}
+span.textin {
+  position: absolute;
+  width: 157px;
+  height: 19px;
+  left: 56px;
+  top: 139px;
+  padding-left: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213f7d;
+}
+
+span.housing {
+  position: absolute;
+  width: 84px;
+  height: 19px;
+  left: 56px;
+  margin-left: 10px;
+  top: 210px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #213f7d;
+}
+
+.house {
+  position: absolute;
+  left: 30px;
+  top: 205px;
+}
+
+.title {
+  position: absolute;
+  width: 75px;
+  height: 14px;
+  left: 30px;
+  top: 270px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #545f7d;
+}
+
+div.users {
+  position: absolute;
+  width: 283px;
+  height: 40px;
+  left: 0px;
+  top: 294px;
+
+  /*background: #39cdcc;
+  opacity: 0.06;*/
+
+  .people {
+    position: absolute;
+    left: 30px;
+    top: 13.8px;
+  }
+
+  .peepin {
+    position: absolute;
+    width: 44px;
+    height: 19px;
+    left: 56px;
+    top: 15px;
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+}
+
+div.Guarantors {
+  position: absolute;
+  width: 283px;
+  height: 19px;
+  left: 0px;
+  top: 324px;
+  margin-top: 20px;
+
+  .g-people {
+    position: absolute;
+    left: 30px;
+    top: 13.8px;
+  }
+
+  .g-peepin {
+    position: absolute;
+    width: 87px;
+    height: 19px;
+    left: 56px;
+    top: 15px;
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+}
+
+div.Loans {
+  position: absolute;
+  width: 283px;
+  height: 19px;
+  left: 0px;
+  top: 364px;
+  margin-top: 31px;
+
+  .loaned {
+    position: absolute;
+    left: 30px;
+    top: 13.8px;
+  }
+
+  .loanin {
+    position: absolute;
+    width: 87px;
+    height: 19px;
+    left: 56px;
+    top: 13px;
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+}
+
+div.Model {
+  position: absolute;
+  width: 283px;
+  height: 19px;
+  left: 0px;
+  top: 414px;
+  margin-top: 31px;
+
+  .modeled {
+    position: absolute;
+    left: 30px;
+    top: 13.8px;
+  }
+
+  .modelin {
+    position: absolute;
+    width: 128px;
+    height: 19px;
+    left: 56px;
+    top: 12px;
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+}
+
+div.Savings {
+  position: absolute;
+  width: 283px;
+  height: 19px;
+  left: 0px;
+  top: 464px;
+  margin-top: 32px;
+
+  .savined {
+    position: absolute;
+    left: 30px;
+    top: 13.8px;
+  }
+
+  .savin {
+    position: absolute;
+    width: 59px;
+    height: 19px;
+    left: 56px;
+    top: 12px;
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+}
+
+div.L-requests {
+  position: absolute;
+  width: 283px;
+  height: 19px;
+  left: 0px;
+  top: 514px;
+  margin-top: 30px;
+
+  .lrequested {
+    position: absolute;
+    left: 30px;
+    top: 13.8px;
+  }
+
+  .questin {
+    position: absolute;
+    width: 116px;
+    height: 19px;
+    left: 56px;
+    top: 12px;
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+}
+
+div.Whitelist {
+  position: absolute;
+  width: 283px;
+  height: 19px;
+  left: 0px;
+  top: 564px;
+  margin-top: 31px;
+
+  .whitelisted {
+    position: absolute;
+    left: 30px;
+    top: 13.8px;
+  }
+
+  .wlistin {
+    position: absolute;
+    width: 70px;
+    height: 19px;
+    left: 56px;
+    top: 12px;
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+}
+
+div.Karma {
+  position: absolute;
+  width: 283px;
+  height: 19px;
+  left: 0px;
+  top: 614px;
+  margin-top: 31px;
+
+  .karma-ed {
+    position: absolute;
+    left: 30px;
+    top: 13.8px;
+  }
+
+  .karmin {
+    position: absolute;
+    width: 51px;
+    height: 19px;
+    left: 56px;
+    top: 12px;
+    margin-left: 10px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #213f7d;
+  }
+}
+
+.head {
+  position: absolute;
+  width: 75px;
+  height: 14px;
+  left: 29px;
+  top: 700px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #545f7d;
+}

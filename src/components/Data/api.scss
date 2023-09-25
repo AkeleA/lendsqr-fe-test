@@ -1,0 +1,243 @@
+div.container {
+  position: absolute;
+  width: 1037px;
+  height: 640px;
+  left: 343px;
+  top: 428px;
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+.th-1 > p {
+  position: absolute;
+  width: 90px;
+  height: 15px;
+  left: 30px;
+  top: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #545f7d;
+}
+
+.th-2 > p {
+  position: absolute;
+  width: 68px;
+  height: 15px;
+  left: 181px;
+  top: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #545f7d;
+}
+
+.th-3 > p {
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  left: 322px;
+  top: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #545f7d;
+}
+
+.th-4 > p {
+  position: absolute;
+  width: 102px;
+  height: 15px;
+  left: 504px;
+  top: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #545f7d;
+}
+
+.th-5 > p {
+  position: absolute;
+  width: 99px;
+  height: 15px;
+  left: 663px;
+  top: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #545f7d;
+}
+
+.th-6 > p {
+  position: absolute;
+  width: 45px;
+  height: 15px;
+  left: 852px;
+  top: 30px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: flex-end;
+  color: #545f7d;
+}
+
+tbody.usedata {
+  position: absolute;
+  top: 82px;
+  left: 30px;
+  color: #545f7d;
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+td.apiOrgName {
+  width: 116px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 22.5px;
+  margin-left: 30px;
+}
+
+td.apiName {
+  width: 106px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 22.5px;
+  margin-left: 22.5px;
+  padding-left: 18px;
+  padding-right: 20px;
+}
+
+td.apiMail {
+  width: 147px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 22.5px;
+  margin-left: 22.5px;
+  padding-left: 0.5px;
+  padding-right: 20px;
+}
+
+td.apiNumber {
+  width: 124px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 22.5px;
+  margin-left: 22.5px;
+  padding-left: 0.1px;
+  padding-right: 1px;
+}
+
+td.apiCreate {
+  width: 194px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 22.5px;
+  margin-left: 2px;
+  padding-left: 5px;
+  padding-right: 20px;
+}
+
+td.apiStat {
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+  margin-top: 22.5px;
+  margin-left: 0px;
+  margin-right: 18px;
+  padding-left: 0;
+}
+
+hr.faintLine {
+  width: 977px;
+  height: 1px;
+  flex-shrink: 0;
+  background: rgba(33, 63, 125, 0.1);
+}
+
+/* status */
+.gray-blue {
+  width: 80px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  opacity: 0.06;
+  background: #545f7d;
+  color: #000205;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.gray-yellow {
+  width: 90px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  opacity: 0.1;
+  background: #e9b200;
+  color: #000205;
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.teal-green {
+  border-radius: 100px;
+  opacity: 0.06;
+  background: #39cd62;
+  width: 70px;
+  height: 30px;
+  flex-shrink: 0;
+  color: #000205;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.violet-red {
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  opacity: 0.1;
+  background: #f80441;
+  border-radius: 100px;
+  color: #000205;
+}

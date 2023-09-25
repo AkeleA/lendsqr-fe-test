@@ -1,0 +1,160 @@
+div.Login {
+  display: flex;
+  flex-direction: column;
+
+  .t-left {
+    display: flex;
+    flex-direction: column;
+
+    .icon {
+      position: absolute;
+      width: 24.75px;
+      height: 25px;
+      left: 97px;
+      top: 107.67px;
+    }
+
+    .topname {
+      position: absolute;
+      width: 138.44px;
+      height: 36px;
+      left: 132.33px;
+      top: 106px;
+    }
+
+    .left-img {
+      position: absolute;
+      width: 600px;
+      height: 337.57px;
+      left: 67px;
+      top: 281px;
+    }
+  }
+
+  .t-right {
+    position: absolute;
+    width: 704px;
+    height: 900px;
+    left: 736px;
+    top: -5px;
+    background: #ffffff;
+    box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
+
+    h1 {
+      position: absolute;
+      width: 183px;
+      height: 55px;
+      margin-left: 100px;
+      top: 215px;
+      font-family: "Avenir Next";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 55px;
+      letter-spacing: -0.04em;
+      color: #213f7d;
+    }
+
+    .deets {
+      position: absolute;
+      width: 194px;
+      height: 28px;
+      margin-left: 100px;
+      top: 280px;
+      margin-top: 20px;
+      font-family: "Avenir Next";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      color: #545f7d;
+    }
+
+    input.email {
+      box-sizing: border-box;
+      position: absolute;
+      margin-left: 100px;
+      width: 447px;
+      height: 50px;
+      top: 368px;
+      background: #ffffff;
+      border: 2px solid rgba(84, 95, 125, 0.15);
+      border-radius: 5px;
+    }
+
+    .email::placeholder {
+      position: absolute;
+      width: 36px;
+      height: 20px;
+      //left: 852px;
+      //top: 385.5px;
+      margin-top: 17.5px;
+      margin-left: 16px;
+      font-family: "Avenir Next";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #545f7d;
+      opacity: 0.6;
+    }
+
+    input.password {
+      box-sizing: border-box;
+      margin-left: 100px;
+      position: absolute;
+      width: 447px;
+      height: 50px;
+      top: 442px;
+      background: #ffffff;
+      border: 2px solid rgba(84, 95, 125, 0.15);
+      border-radius: 5px;
+    }
+    .password::placeholder {
+      position: absolute;
+      width: 77.64px;
+      height: 14.17px;
+      /*left: 852px;
+      top: 459px;*/
+      margin-top: 17px;
+      margin-left: 16px;
+      font-family: "Avenir Next";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #545f7d;
+      opacity: 0.6;
+    }
+
+    p.pass {
+      position: absolute;
+      width: 190px;
+      height: 17px;
+      top: 516px;
+      margin-left: 59px;
+      font-family: "Avenir Next";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: right;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #39cdcc;
+    }
+
+    button {
+      position: absolute;
+      height: 48px;
+      width: 447px;
+      margin-left: 100px;
+      //right: 10.9%;
+      top: 62.56%;
+      bottom: 32.11%;
+      border: none;
+      background: #39cdcc;
+      border-radius: 8px;
+    }
+  }
+}
