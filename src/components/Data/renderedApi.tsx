@@ -51,9 +51,27 @@ const UsersTable: React.FC = () => {
   const startIndex: number = (currentPage - 1) * perPage;
   const endIndex: number = startIndex + perPage;
 
+  const totalPages: number = Math.ceil(users.length / perPage);
+
   // Function to handle page navigation
   const handlePageChange = (pageNumber: number) => {
     setCurrentPage(pageNumber);
+  };
+
+  const generatePageNumbers = () => {
+    const pageNumbers = [];
+    const totalPagesToShow = 3; // Number of total pages to show in pagination
+    const totalPages = Math.ceil(users.length / perPage);
+    let startPage = currentPage;
+
+    for (let i = 0; i < totalPagesToShow; i++) {
+      if (startPage <= totalPages) {
+        pageNumbers.push(startPage);
+        startPage++;
+      }
+    }
+
+    return pageNumbers;
   };
 
   const formatOrgName = (orgName: string) => {
@@ -204,19 +222,41 @@ const UsersTable: React.FC = () => {
         </table>
       </div>
       <div className="pagination">
-        <button
-          onClick={() => handlePageChange(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
-          Previous
-        </button>
-        <span>Page {currentPage}</span>
-        <button
-          onClick={() => handlePageChange(currentPage + 1)}
-          disabled={endIndex >= users.length}
-        >
-          Next
-        </button>
+        <span className="pag-left">
+          <p className="part1">Showing</p>{" "}
+          <span className="part2">
+            <span className="inSpan">
+              {startIndex + 1}-{endIndex}{" "}
+            </span>
+          </span>
+          <p className="part3">out of {users.length} </p>
+        </span>
+        <div>
+          <button
+            onClick={() => handlePageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+            className="out1"
+          >
+            <span>{"<"}</span>
+          </button>
+          {generatePageNumbers().map((pageNumber) => (
+            <button
+              key={pageNumber}
+              onClick={() => handlePageChange(pageNumber)}
+              className={pageNumber === currentPage ? "current" : ""}
+              id="inbutt"
+            >
+              {pageNumber}
+            </button>
+          ))}
+          <button
+            onClick={() => handlePageChange(currentPage + 1)}
+            disabled={currentPage >= totalPages}
+            className="out2"
+          >
+            {">"}
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserGroup } from "@fortawesome/free-solid-svg-icons";
+import {
+  faUserGroup,
+  faUsers,
+  faCoins,
+  faHandHoldingDollar,
+} from "@fortawesome/free-solid-svg-icons";
 import "./users.scss";
 
 type Props = {};
@@ -52,6 +57,36 @@ const UserTop = (props: Props) => {
         </div>
         <h2 className="firsth">USERS</h2>
         <p className="userNo">{userCount}</p>
+      </div>
+      <div className="ugroup2">
+        <div className="cover2">
+          <div className="prop2">
+            <FontAwesomeIcon icon={faUsers} className="useFgroup2" />
+          </div>
+        </div>
+        <h2 className="firsth2">ACTIVE USERS</h2>
+        <p className="userNo2">{userCount}</p>
+      </div>
+      <div className="ugroup3">
+        <div className="cover3">
+          <div className="prop3">
+            <FontAwesomeIcon icon={faCoins} className="useFgroup3" />
+          </div>
+        </div>
+        <h2 className="firsth3">USERS WITH LOANS</h2>
+        <p className="userNo3">{userCount}</p>
+      </div>
+      <div className="ugroup4">
+        <div className="cover4">
+          <div className="prop4">
+            <FontAwesomeIcon
+              icon={faHandHoldingDollar}
+              className="useFgroup4"
+            />
+          </div>
+        </div>
+        <h2 className="firsth4">USERS WITH SAVINGS</h2>
+        <p className="userNo4">{userCount}</p>
       </div>
     </div>
   );

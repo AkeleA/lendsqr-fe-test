@@ -241,3 +241,106 @@ hr.faintLine {
   border-radius: 100px;
   color: #000205;
 }
+
+div.pagination {
+  position: absolute;
+  left: 343px;
+  top: 1088px;
+  width: 1037px;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 688px;
+  flex-shrink: 0;
+}
+
+span.pag-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  width: 227px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
+.pag-left > p.part1 {
+  color: #545f7d;
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pag-left > span.part2 {
+  width: 80px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: rgba(33, 63, 125, 0.1);
+}
+
+span.inSpan {
+  color: #213f7d;
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: absolute;
+  top: 7px;
+  left: 84px;
+}
+
+p.part3 {
+  color: #545f7d;
+  font-family: "Work Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button.out1 {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: rgba(33, 63, 125, 0.1);
+}
+
+button.out1 > span {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  opacity: 0.6;
+  margin: auto;
+  color: #213f7d;
+}
+
+button#inbutt {
+  border: none;
+  background-color: none;
+  //color: #545f7d;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+button.out2 {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: rgba(33, 63, 125, 0.1);
+}
+
+button.out2 > span {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
