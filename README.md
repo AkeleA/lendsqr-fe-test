@@ -19,6 +19,7 @@ My challenge was to build a web application using React and SCSS. The applicatio
 ## Overview
 
 This project is a user details dashboard built with React, TypeScript, and SCSS. It displays comprehensive user information including personal details, education and employment history, social media profiles, and guarantor information.
+NOTE: The .env file was uploaded intentionally
 
 ## Technologies Used
 
