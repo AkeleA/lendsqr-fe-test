@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/dashboard.scss";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";

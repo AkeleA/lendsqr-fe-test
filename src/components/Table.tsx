@@ -166,7 +166,7 @@ const DashboardContent: React.FC = () => {
       ) : (
         <button
           key={`page-${page}`}
-          onClick={() => paginate(page)}
+          onClick={() => paginate(Number(page))}
           className={currentPage === page ? "active" : ""}
         >
           {page}
