@@ -1,0 +1,90 @@
+div.container {
+  display: flex;
+  flex-direction: column;
+  width: 48.88%;
+  height: 900px;
+  margin-top: -5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  height: 400px;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.header {
+  margin-bottom: 16px;
+
+  h2 {
+    width: 183px;
+    height: 55px;
+    font-family: "Avenir-Next";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 54.64px;
+    color: #213f7d;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: #545f7d;
+    font-family: "Avenir-Next";
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 27.32px;
+  }
+}
+
+.form-group {
+  margin-bottom: 16px;
+
+  input {
+    width: 447px;
+    height: 50px;
+    padding: 4px 8px;
+    border: 2px solid #545f7d;
+    border-radius: 5px;
+  }
+}
+
+.form-actions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+
+  button {
+    background-color: #39cdcc;
+    color: #fff;
+    border: none;
+    width: 447px;
+    height: 48px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Avenir-Next";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.12px;
+    letter-spacing: 10%;
+    align-self: center;
+
+    &:hover {
+      background-color: #fff;
+      border: 2px solid #007bff;
+      color: #000;
+    }
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

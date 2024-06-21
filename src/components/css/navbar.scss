@@ -1,0 +1,123 @@
+.navbar {
+  display: flex;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 35px 0px 35px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); //remember to comment out
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    img {
+      width: 144px;
+      height: 30px;
+    }
+  }
+
+  &__search {
+    margin-left: 194.2px;
+
+    .search-container {
+      display: flex;
+      align-items: center;
+      border: 0.5px solid #545f7d;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    input {
+      padding: 8px 12px;
+      width: 388px;
+      height: 32px;
+      border: none;
+      outline: none;
+    }
+
+    .search-btn {
+      // padding: 4px;
+      width: 48px;
+      height: 50px;
+      background-color: #39cdcc;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+
+      .search-icon {
+        color: #fff;
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+    align-items: center;
+    margin-right: 34.2px;
+
+    p {
+      width: 37px;
+      height: 19px;
+      font-family: "roboto", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18.75px;
+      color: #213f7d;
+      text-decoration: underline;
+    }
+
+    .bell-icon {
+      width: 26px;
+      height: 26px;
+      color: #213f7d;
+    }
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+
+    &-image {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      object-fit: cover;
+
+      img {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    &-name {
+      margin-left: 10px;
+      font-family: "Work Sans";
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18.77px;
+      color: #213f7d;
+    }
+
+    &-dropdown {
+      margin-left: 2px;
+      width: 20px;
+      height: 20px;
+
+      .dropdown-icon {
+        margin-top: 3.18px;
+        width: 20px;
+        height: 15px;
+        color: #213f7d;
+      }
+    }
+  }
+}

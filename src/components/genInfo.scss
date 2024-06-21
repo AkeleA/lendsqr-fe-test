@@ -1,0 +1,42 @@
+.user-details {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+
+  h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .personal-info,
+  .education-employment,
+  .socials,
+  .guarantor-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      .label {
+        font-size: 0.8rem;
+        color: #7f7f7f;
+        margin-bottom: 0.5rem;
+      }
+
+      .value {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .guarantor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}

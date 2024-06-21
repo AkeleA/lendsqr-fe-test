@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "Avenir-Next", sans-serif;
+  font-family: "Avenir-Next-Bold", sans-serif;
+}
+
+@font-face {
+  font-family: "Avenir-Next";
+  src: url("./assets/Fonts/AvenirNextLTPro-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Avenir-Next-Bold";
+  src: url("./assets/Fonts/AvenirNextLTPro-Bold.otf") format("otf");
+}
