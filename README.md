@@ -4,7 +4,7 @@ Welcome to my submission for the Lendsqr Frontend Engineering Test! This project
 
 ## Live Web App
 
-[Explore the Live Web App](your-live-app-url-here)
+[Explore the Live Web App](https://akeleojo-achor-lendsqr-fe-test.vercel.app/)
 
 ## Task Description
 
@@ -12,7 +12,7 @@ My challenge was to build a web application using React and SCSS. The applicatio
 
 ## Google DOC
 
-[Link to Google Docs](your-google-docs-link-here)
+[Link to Google Docs](https://docs.google.com/document/d/1xETchRop5X7LGj1rBR_85HNoG9yxZ6r3tUHurghrBiA/edit?usp=sharing)
 
 # User Details Dashboard
 

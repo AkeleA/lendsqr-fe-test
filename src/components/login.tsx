@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./css/login.scss";
 
 const Login: React.FC = () => {
@@ -21,12 +23,31 @@ const Login: React.FC = () => {
     const validPassword = import.meta.env.VITE_PASSWORD;
 
     if (email === validUsername && password === validPassword) {
-      navigate("/Dashboard");
+      toast.success("Login successful!", {
+        position: "bottom-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+      setTimeout(() => {
+        navigate("/lendsqr-dashboard");
+      }, 3000); // 3 seconds delay
     } else {
-      console.log("Invalid credentials");
-      return false;
+      toast.error("Invalid credentials. Please try again.", {
+        position: "bottom-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
     }
   };
+
   return (
     <div className="container">
       <div className="login-box">
@@ -59,6 +80,7 @@ const Login: React.FC = () => {
           </div>
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };

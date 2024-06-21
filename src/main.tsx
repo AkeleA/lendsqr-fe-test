@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/dashboard" element={<Dashboard />}>
+        <Route path="/lendsqr-dashboard" element={<Dashboard />}>
           <Route index element={<DashboardContent />} />
           <Route path="userdetails/:id" element={<UserDetails />} />
         </Route>
