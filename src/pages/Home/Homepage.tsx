@@ -13,8 +13,8 @@ const Homepage = (props: Props) => {
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-  const VALID_EMAIL = "Akele@gmail.com";
-  const VALID_PASSWORD = "unique504";
+  const VALID_EMAIL = process.env.REACT_APP_EMAIL;
+  const VALID_PASSWORD = process.env.REACT_APP_PASSWORD;
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();

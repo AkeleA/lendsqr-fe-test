@@ -25,7 +25,7 @@ const UserTable: React.FC = () => {
   const [menuOpenIndex, setMenuOpenIndex] = useState<number | null>(null);
 
   const filterFormRef = useRef<HTMLDivElement>(null);
-
+  const apiToken = process.env.REACT_APP_API_TOKEN;
   const handleOptionsClick = (index: number) => {
     setMenuOpenIndex(index === menuOpenIndex ? null : index);
   };
@@ -41,7 +41,7 @@ const UserTable: React.FC = () => {
           "https://api.json-generator.com/templates/mLy1tlxf5tv7/data?status=200&delay=0",
           {
             headers: {
-              Authorization: `Bearer 3eoyrx2x18x6kp3nv3qhvcu1nibahgo5u78a0641`,
+              Authorization: `Bearer ${apiToken}`,
               "Content-Type": "application/json",
             },
           }
@@ -71,6 +71,7 @@ const UserTable: React.FC = () => {
     };
 
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {

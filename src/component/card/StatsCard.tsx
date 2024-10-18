@@ -43,6 +43,7 @@ const StatsCard: React.FC = () => {
   const [stats, setStats] = useState<StatItem[]>(initialStats);
   const [error, setError] = useState<string | null>(null);
 
+  const apiToken = process.env.REACT_APP_API_TOKEN;
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -50,7 +51,7 @@ const StatsCard: React.FC = () => {
           "https://api.json-generator.com/templates/mLy1tlxf5tv7/data?status=200&delay=0",
           {
             headers: {
-              Authorization: `Bearer 3eoyrx2x18x6kp3nv3qhvcu1nibahgo5u78a0641`,
+              Authorization: `Bearer ${apiToken}`,
               "Content-Type": "application/json",
             },
           }
