@@ -1,0 +1,64 @@
+.filter-form-container {
+  position: absolute;
+  z-index: 20;
+  background-color: #fff;
+  top: 10vh;
+  left: 3.56vh;
+  width: 18.05vw;
+  padding: 10px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: #545f7d;
+}
+
+.form-input {
+  width: 15.58vw;
+  padding-left: 1.39vw;
+  height: 4.71vh;
+  margin-top: 1.2vh;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.12vh;
+}
+
+.reset-button,
+.filter-button {
+  padding: 1.2vh 1.5vw;
+  cursor: pointer;
+}
+
+.reset-button {
+  background-color: #fff;
+  width: 6.8vw;
+  color: #545f7d;
+  border: 0.5px solid #545f7d;
+  border-radius: 8px;
+}
+
+.filter-button {
+  background-color: #39cdcc;
+  width: 6.8vw;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}

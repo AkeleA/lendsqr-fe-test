@@ -1,0 +1,122 @@
+.home-page {
+  display: flex;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 15.44vh;
+  width: 51.11vw;
+  padding-top: 100px;
+  padding-left: 6.95vw;
+
+  .logo {
+    width: 12.07vw;
+    height: 4vh;
+  }
+
+  .home-image {
+    width: 41.67vw;
+    height: 37.51vh;
+  }
+}
+
+.right-side {
+  display: flex;
+  width: 48.89vw;
+  height: 100vh;
+  flex-direction: column;
+  padding-top: 23.89vh;
+  padding-left: 6.94vw;
+  gap: 2.6vh;
+
+  .home-heading {
+    h1 {
+      color: #213f7d;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 54.64px;
+      letter-spacing: 4%;
+      width: 12.71vw;
+      height: 6.1vh;
+    }
+
+    p {
+      width: 15.47vw;
+      height: 3.1vh;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27.32px;
+      color: #545f7d;
+    }
+  }
+
+  .home-input {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6vh;
+    margin-top: 4vh;
+
+    input::placeholder {
+      padding-left: 0.5vw;
+    }
+
+    .email {
+      width: 31.04vw;
+      height: 5.56vh;
+      border-radius: 5px;
+      border: solid 0.5px #545f7d;
+      padding-left: 0.5vw;
+    }
+
+    .password-container {
+      position: relative;
+      width: 31.04vw;
+      height: 5.56vh;
+    }
+
+    .password-container input {
+      width: 100%;
+      height: 100%;
+      padding-left: 0.5vw;
+      border: none;
+      border-radius: 5px;
+      border: solid 0.5px #545f7d;
+    }
+
+    .show-password {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      color: #007bff;
+    }
+  }
+
+  .home-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.6vh;
+    gap: 3.3vh;
+
+    span {
+      width: 10.21vw;
+      height: 1.8vh;
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 16.39px;
+      letter-spacing: 10%;
+      color: #39cdcc;
+    }
+
+    button {
+      width: 31.04vw;
+      height: 5.33vh;
+      border-radius: 8px;
+      border: none;
+      background: #39cdcc;
+      color: #fff;
+    }
+  }
+}
